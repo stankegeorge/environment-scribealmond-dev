@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:scribealmond/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:scribealmond/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:scribealmond/prow:hmacToken
+segmentWriteKey: vault:scribealmond:segmentWriteKey
